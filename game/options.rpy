@@ -13,7 +13,7 @@
 ##
 ## El _() que rodea la cadena de texto la señala como traducible.
 
-define config.name = _("0195_ElHadaDeFresa_ElsaDorada")
+define config.name = _("El Hada De Fresa")
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.
@@ -24,13 +24,18 @@ define gui.show_name = True
 
 ## Versión del juego.
 
-define config.version = "1.0"
+define config.version = "0.1.0"
 
 
 ## Texto situado en la pantalla 'Acerca de' del juego. Sitúa el texto entre
 ## comillas triples y deja una línea en blanco entre párrafos.
 
 define gui.about = _p("""
+    Desarrollado por:
+
+        - Elsa Dorada
+        
+        - CodyGameDev
 """)
 
 
@@ -62,7 +67,7 @@ define config.has_voice = True
 ## el menú principal. Este archivo seguirá sonando en el juego hasta que sea
 ## detenido o se reproduzca otro archivo.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/dramatic_boi.mp3"
 
 
 ## Transiciones ################################################################
